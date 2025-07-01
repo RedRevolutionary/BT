@@ -15,6 +15,7 @@ public:
     // Setter methods
     void setX(int x);
     void setY(int y);
+    ~Point2D() {} ;
 };
 
 #endif

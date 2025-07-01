@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FC5840B-D37C-4D6D-8EE0-19AB3DA45BEE}|BaiTapGiuaKy\\BaiTapGiuaKy.vcxproj|C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\BaiTapGiuaKy\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4FC5840B-D37C-4D6D-8EE0-19AB3DA45BEE}|BaiTapGiuaKy\\BaiTapGiuaKy.vcxproj|solutionrelative:BaiTapGiuaKy\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E7429511-AA23-4054-9C07-4EC11C632241}|Bai 7\\Bai 7.vcxproj|C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 7\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7429511-AA23-4054-9C07-4EC11C632241}|Bai 7\\Bai 7.vcxproj|solutionrelative:Bai 7\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,13 +32,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\BaiTapGiuaKy\\main.cpp",
-              "RelativeDocumentMoniker": "BaiTapGiuaKy\\main.cpp",
-              "ToolTip": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\BaiTapGiuaKy\\main.cpp",
-              "RelativeToolTip": "BaiTapGiuaKy\\main.cpp",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 7\\main.cpp",
+              "RelativeDocumentMoniker": "Bai 7\\main.cpp",
+              "ToolTip": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 7\\main.cpp",
+              "RelativeToolTip": "Bai 7\\main.cpp",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAALMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-01T07:06:50.534Z",
+              "WhenOpened": "2025-07-01T08:32:42.543Z",
               "EditorCaption": ""
             }
           ]

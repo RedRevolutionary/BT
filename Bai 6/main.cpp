@@ -1,23 +1,23 @@
 ﻿/*
-	Xây dựng lớp DaThuc để biểu diễn các đối tượng đa thức
-	một biến với các thành phần dữ liệu và các hàm sau :
-	a.) Thành phần dữ liệu:
-	+ N là số nguyên biểu diễn lũy thừa cao nhất của x.
-	+ Data: là một mảng chứa các hệ số của x(data[k] chứa hệ số của x^k).
+	Xây dựng lớp DaThuc để biểu diễn các đối tượng đa thức một biến với các thành phần dữ liệu và các hàm sau :
+	
+    a.) 
+    Thành phần dữ liệu:
+	    + N là số nguyên biểu diễn lũy thừa cao nhất của x.
+	    + Data: là một mảng chứa các hệ số của x( data[k] chứa hệ số của x^k ).
 
-	b.) Các hàm:
-	+ Phương thức thiết lập và phương thức hủy bỏ.
-	+ Hàm void input() để nhập thông tin cho đa thức.
-	+ Hàm void print() để xuất thông tin đa thức.
-	+ Toán tử  nhập ( >> ) , xuất ( << ) .
-	+ Hàm tính giá trị đa thức.
-	+ Hàm tính đạo hàm.
-	+ Hàm tính tích phân.
-	+ Cài đặt các phép toán + ( cộng 2 đa thức ), -( trừ hai đa thức ), 
-	* ( nhân hai đa thức ).
-	+ Cài đặt quá tải toán tử [] để trích hệ số thành phần trong đa thức .
-	+ Cài đặt quá tải toán tử ++ , -- để nâng (hoặc giảm) các hệ số của 
-	đa thức đi 1.
+	b.) 
+    Các hàm:
+	    + Phương thức thiết lập và phương thức hủy bỏ.
+	    + Hàm void input() để nhập thông tin cho đa thức.
+	    + Hàm void print() để xuất thông tin đa thức.
+	    + Toán tử  nhập ( >> ) , xuất ( << ) .
+	    + Hàm tính giá trị đa thức.
+	    + Hàm tính đạo hàm.
+	    + Hàm tính tích phân.
+	    + Cài đặt các phép toán + ( cộng 2 đa thức ), -( trừ hai đa thức ), * ( nhân hai đa thức ).
+	    + Cài đặt quá tải toán tử [] để trích hệ số thành phần trong đa thức .
+	    + Cài đặt quá tải toán tử ++ , -- để nâng (hoặc giảm) các hệ số của đa thức đi 1.
 
 */
 
@@ -26,10 +26,9 @@
 using namespace std;
 int main() {
     DaThuc A, B;
-    cout << "Nhap da thuc A:\n";
+    // Nhap da thuc A
     cin >> A;
-
-    cout << "\nNhap da thuc B:\n";
+    // Nhap da thuc B
     cin >> B;
 
     cout << "\nDa thuc A: " << A <<  endl;

@@ -15,11 +15,14 @@ void TamGiac::set(int x1, int y1, int x2, int y2, int x3, int y3) {
     C.setX(x3); C.setY(y3);
 }
 
-float TamGiac::tinhKhoangCach(const Point2D& p1, const Point2D& p2) const {
+float TamGiac::tinhKhoangCach(const Point2D& p1, const Point2D& p2) const 
+{
     return sqrt(pow(p1.getX() - p2.getX(), 2) + pow(p1.getY() - p2.getY(), 2));
 }
 
-float TamGiac::tinhChuVi() const {
+float TamGiac::tinhChuVi() const 
+
+{
     float a = tinhKhoangCach(B, C);
     float b = tinhKhoangCach(A, C);
     float c = tinhKhoangCach(A, B);
@@ -46,8 +49,7 @@ int TamGiac::phanLoai() const {
     float b = tinhKhoangCach(A, C);
     float c = tinhKhoangCach(A, B);
 
-    // Kiểm tra điều kiện các loại tam giác
-    // ... (phần này bạn tự hoàn thiện theo yêu cầu)
+
 
     return 0; // Tam giác thường
 }

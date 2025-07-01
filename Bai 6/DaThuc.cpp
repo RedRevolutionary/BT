@@ -18,8 +18,10 @@ void DaThuc::input() {
     }
 }
 
-void DaThuc::print() const {
-    for (int i = N; i >= 0; --i) {
+void DaThuc::print() const 
+{
+    for (int i = N; i >= 0; --i) 
+    {
         std::cout << std::showpos << data[i] << "*x^" << i << " ";
     }
     std::cout << std::endl;
@@ -27,7 +29,8 @@ void DaThuc::print() const {
 
 double DaThuc::tinhGiaTri(double x) {
     double sum = 0;
-    for (int i = 0; i <= N; ++i) {
+    for (int i = 0; i <= N; ++i) 
+    {
         sum += data[i] * std::pow(x, i);
     }
     return sum;

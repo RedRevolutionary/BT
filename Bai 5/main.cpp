@@ -1,5 +1,5 @@
 ﻿/*
-	Câu 5:
+Câu 5:
 	Xây dựng lớp TamGiac để biểu diễn các đối tượng tam giác với các thành phần
 	dữ liệu và các hàm sau :
 		A . Thành phần dữ liệu: A (Diem A) , B (Diem B) , C (Diem C) là
@@ -11,13 +11,11 @@
 		+ Hàm float tinhDienTich() để tính diện tích tam giác.
 		+ Hàm void print() để xuất thông tin tam giác.
 		+ Hàm int phanLoai() để xác định loại tam giác
-		(0: Tam giác thường , 1: tam giác vuông, 2: Tam giác cân 
-		, 3: Tam giác vuông cân, 4: Tam giác đều )
+		(0: Tam giác thường, 1: tam giác vuông, 2: Tam giác cân, 3: Tam giác vuông cân, 4: Tam giác đều )
 */
 
 #include "TamGiac.h"
-#include <iostream>
-
+#include "Point2D.h"
 int main() {
 	TamGiac tg1; // Tam giác mặc định
 	tg1.set(0, 0, 3, 0, 0, 4); // Tam giác vuông

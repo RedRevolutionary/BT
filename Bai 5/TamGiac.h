@@ -3,7 +3,8 @@
 
 #include "Point2D.h"
 #include <cmath>
-
+#include<iostream>
+using namespace std;
 class TamGiac {
 private:
     Point2D A, B, C;
