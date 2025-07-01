@@ -13,75 +13,78 @@
 #include <cmath>
 using namespace std;
 
-
 class Point {
 private:
     int x, y;
-
 public:
-    Point(int x = 0, int y = 0) : x(x), y(y) {}
+    int getX() { return x; }
+    int getY() { return y; }
+    void setX(int value) { x = value; }
+    void setY(int value) { y = value; }
 
-    int getX() const { return x; }
-    int getY() const { return y; }
+    Point(int _x = 0, int _y = 0) { x = _x; y = _y; }
+    Point(const Point& p) { x = p.x; y = p.y; }
+    ~Point() {}
 
-    void setX(int x) { this->x = x; }
-    void setY(int y) { this->y = y; }
+    friend istream& operator>>(istream& is, Point& p) {
+        is >> p.x >> p.y;
+        return is;
+    }
+
+    friend ostream& operator<<(ostream& os, Point p) {
+        os << "(" << p.x << "," << p.y << ")";
+        return os;
+    }
+
+    float KhoangCach(Point p) {
+        return sqrt((x - p.x) * (x - p.x) + (y - p.y) * (y - p.y));
+    }
 };
-
 
 class Line {
 private:
     Point A, B;
-
 public:
-    //Line() : A(Point()), B(Point()) {}
-    Line() 
-    {
-        A = Point(0, 0);  // Khởi tạo điểm A tại gốc tọa độ (0,0)
-        B = Point(0, 0);  // Khởi tạo điểm B tại gốc tọa độ (0,0)
-    }
-    //Line(int x1, int y1, int x2, int y2) : A(Point(x1, y1)), B(Point(x2, y2)) {} 
-    Line(int x1, int y1, int x2, int y2) 
-    {
-		A = Point(x1, y1);
-		B = Point(x2, y2);
-    }
-
-    ~Line() {};
+    Line() {}
+    Line(int x1, int y1, int x2, int y2) : A(x1, y1), B(x2, y2) {}
+    ~Line() {}
 
     void set(int x1, int y1, int x2, int y2) {
-        A.setX(x1);
-        A.setY(y1);
-        B.setX(x2);
-        B.setY(y2);
+        A.setX(x1); A.setY(y1);
+        B.setX(x2); B.setY(y2);
     }
 
-    Point getA() const { return A; }
-    Point getB() const { return B; }
+    void print() {
+        cout << "Doan thang AB voi A" << A << " va B" << B << endl;
+    }
+
+    void xuatPhuongTrinh() {
+        int a = B.getY() - A.getY();
+        int b = A.getX() - B.getX();
+        int c = A.getY() * (B.getX() - A.getX()) - A.getX() * (B.getY() - A.getY());
+
+        cout << a << "x + " << b << "y + " << c << " = 0" << endl;
+    }
+
+    float TinhDoDai() {
+        return A.KhoangCach(B);
+    }
 };
 
-
-void XuatLine(const Line& line) {
-    cout << "Dong di qua A(" << line.getA().getX() << "," << line.getA().getY()
-        << ") va B(" << line.getB().getX() << "," << line.getB().getY() << ")" << endl;
-}
-
-
-void XuatPhuongTrinh(const Line& line) {
-    int a = line.getB().getY() - line.getA().getY();
-    int b = line.getA().getX() - line.getB().getX();
-    int c = line.getA().getY() * (line.getB().getX() - line.getA().getX())
-        - line.getA().getX() * (line.getB().getY() - line.getA().getY());
-
-    cout << "Phuong Trinh " << a << "x + " << b << "y + " << c << " = 0" << endl;
-}
-
 int main() {
-    Line line;
-    line.set(1, 2, 3, 4);
+    Point p1, p2;
 
-    XuatLine(line);
-    XuatPhuongTrinh(line);
+    cout << "Nhap toa do diem A (x y): ";
+    cin >> p1;
+    cout << "Nhap toa do diem B (x y): ";
+    cin >> p2;
+
+    Line l1;
+    l1.set(p1.getX(), p1.getY(), p2.getX(), p2.getY());
+
+    l1.print();
+    l1.xuatPhuongTrinh();
+    cout << "Do dai doan thang AB: " << l1.TinhDoDai() << endl;
 
     return 0;
 }
