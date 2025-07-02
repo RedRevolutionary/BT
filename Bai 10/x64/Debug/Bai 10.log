@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\WorkS\Desktop\Cplusplus\BaiTapGiuaKy\BT\Bai 10\main.cpp(88,42): warning C4566: character represented by universal-character-name '\u2248' cannot be represented in the current code page (1258)
+C:\Users\WorkS\Desktop\Cplusplus\BaiTapGiuaKy\BT\Bai 10\main.cpp(89,39): warning C4566: character represented by universal-character-name '\u2248' cannot be represented in the current code page (1258)
+C:\Users\WorkS\Desktop\Cplusplus\BaiTapGiuaKy\BT\Bai 10\main.cpp(92,33): warning C4566: character represented by universal-character-name '\u2248' cannot be represented in the current code page (1258)
+C:\Users\WorkS\Desktop\Cplusplus\BaiTapGiuaKy\BT\Bai 10\main.cpp(95,33): warning C4566: character represented by universal-character-name '\u2248' cannot be represented in the current code page (1258)
+C:\Users\WorkS\Desktop\Cplusplus\BaiTapGiuaKy\BT\Bai 10\main.cpp(98,33): warning C4566: character represented by universal-character-name '\u2248' cannot be represented in the current code page (1258)
+C:\Users\WorkS\Desktop\Cplusplus\BaiTapGiuaKy\BT\Bai 10\main.cpp(101,50): warning C4566: character represented by universal-character-name '\u2248' cannot be represented in the current code page (1258)
+  Bai 10.vcxproj -> C:\Users\WorkS\Desktop\Cplusplus\BaiTapGiuaKy\BT\x64\Debug\G C2 Bai 10.exe
