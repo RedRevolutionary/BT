@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{ABB6CA25-20EF-432B-877B-34EFF823CE85}|8 C3 Bai 1\\8 C3 Bai 1.vcxproj|C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\8 C3 Bai 1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ABB6CA25-20EF-432B-877B-34EFF823CE85}|8 C3 Bai 1\\8 C3 Bai 1.vcxproj|solutionrelative:8 C3 Bai 1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B860B4BE-CB1F-4970-8AE1-6023E37A718E}|Bai 10\\Bai 10.vcxproj|C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 10\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B860B4BE-CB1F-4970-8AE1-6023E37A718E}|Bai 10\\Bai 10.vcxproj|solutionrelative:Bai 10\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F9A2FF-D6AA-46AC-9FDE-525ED88D7479}|Bai 9\\Bai 9.vcxproj|C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08F9A2FF-D6AA-46AC-9FDE-525ED88D7479}|Bai 9\\Bai 9.vcxproj|solutionrelative:Bai 9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +38,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 10\\main.cpp",
+              "RelativeDocumentMoniker": "Bai 10\\main.cpp",
+              "ToolTip": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 10\\main.cpp",
+              "RelativeToolTip": "Bai 10\\main.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-04T07:04:13.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 9\\main.cpp",
+              "RelativeDocumentMoniker": "Bai 9\\main.cpp",
+              "ToolTip": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\Bai 9\\main.cpp",
+              "RelativeToolTip": "Bai 9\\main.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-04T07:04:02.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\8 C3 Bai 1\\main.cpp",
               "RelativeDocumentMoniker": "8 C3 Bai 1\\main.cpp",
               "ToolTip": "C:\\Users\\WorkS\\Desktop\\Cplusplus\\BaiTapGiuaKy\\BT\\8 C3 Bai 1\\main.cpp",
               "RelativeToolTip": "8 C3 Bai 1\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-02T08:15:55.879Z",
               "EditorCaption": ""
